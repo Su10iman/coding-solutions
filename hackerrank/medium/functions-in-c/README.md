@@ -63,7 +63,7 @@ Note: I/O will be automatically handled.
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T15:29:30.292Z  
+**Submitted:** 2026-10-10T15:36:44.698Z  
 
 ```c
 
@@ -85,7 +85,10 @@ int max_of_four(int a, int b, int c, int d) {
 int main() {
     int a, b, c, d;
 
-    scanf("%d %d %d %d", &a, &b, &c, &d);
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    scanf("%d", &d);
 
     printf("%d\n", max_of_four(a, b, c, d));
 
